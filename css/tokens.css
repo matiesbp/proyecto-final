@@ -1,0 +1,61 @@
+:root {
+    /* --> Font Family --> */
+    --font-family-headline: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    --font-family-paragraph: "Inter", Helvetica, Arial, sans-serif;
+    /* --> Font weight tokens --> */
+    --font-weight-light: 400;
+    --font-weight-regular: 500;
+    --font-weight-bold: 700;
+    /* --> Font size tokens --> */
+    --font-size-headline-1: 5.63rem;
+    --font-size-headline-2: 4.22rem;
+    --font-size-headline-3: 3.16rem;
+    --font-size-headline-4: 2.38rem;
+    --font-size-headline-5: 1.78rem;
+    --font-size-headline-6: 1.34rem;
+    --font-size-paragraph: 1rem;
+    --font-size-small-text: 0.75rem;
+    /* --> Mobile font size tokens --> */
+    --font-size-mobile-headline-1: 3.34rem;
+    --font-size-mobile-headline-2: 2.69rem;
+    --font-size-mobile-headline-3: 2.16rem;
+    --font-size-mobile-headline-4: 1.72rem;
+    --font-size-mobile-headline-5: 1.38rem;
+    --font-size-mobile-headline-6: 1.09rem;
+    --font-size-mobile-paragraph: 0.88rem;
+    --font-size-mobile-small-text: 0.72rem;
+    /* --> Shadow tokens --> */
+    --box-shadow: 0px 32px 64px -12px rgba(0, 0, 0, 0.14);
+    /* --> Primitive colors --> */
+    --color-red-300: #f66368;
+    --color-red-500: #e40134;
+    --color-black: #111c23;
+    --color-white: #f7f7f7;
+    --color-gray-300: #e2e5e9;
+    --color-gray-500: #aaaaaa;
+    --color-gray-700: #444444;
+    /* --> Text color tokens --> */
+    --color-text-title: var(--color-black);
+    --color-text-subtitle: var(--color-red-500);
+    --color-text-paragraph-primary: var(--color-gray-700);
+    --color-text-paragraph-secondary: var(--color-gray-500);
+    --color-text-btn-white: var(--color-white);
+    --color-text-btn-black: var(--color-black);
+    --color-text-btn-red: var(--color-red-500);
+    --color-text-link-black-default: var(--color-black);
+    --color-text-link-black-hover: var(--color-gray-700);
+    --color-text-link-red-default: var(--color-red-500);
+    --color-text-link-red-hover: var(--color-red-300);
+    /* --> Background color tokens --> */
+    --color-background-body: var(--color-white);
+    --color-background-btn-red-default: var(--color-red-500);
+    --color-background-btn-red-hover: var(--color-red-300);
+    --color-background-btn-black-default: var(--color-black);
+    --color-background-btn-black-hover: var(--color-gray-700);
+    --color-background-card-primary: var(--color-gray-300);
+    /* --> Border color tokens --> */
+    --color-border-primary: var(--color-black);
+    --color-border-secondary: var(--color-gray-700);
+    --color-border-tertiary: var(--color-red-300);
+    --color-border-button: var(--color-red-500);
+  }
